@@ -1,0 +1,15 @@
+.smallButton {
+  position: relative;
+  background: #11047a;
+  color: var(--light-color);
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  flex: none;
+  border-radius: 100px;
+  padding: 0 15px;
+  font-weight: 500;
+}

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  background: var(--primary-bg);
+  color: var(--primary-color);
+  line-height: 1.4em;
+  overflow-wrap: break-word;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: clamp(16px, 3vw, 64px);
+  padding-right: clamp(16px, 3vw, 64px);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 0.9em;
+  font-weight: 400;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.9em;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1em;
+}
+h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1em;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1em;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+p {
+  font-size: 14px;
+}
+
+.fontweight-700 {
+  font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+}

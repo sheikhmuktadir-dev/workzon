@@ -1,0 +1,17 @@
+.notFoundContainer {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.notFoundLink {
+  position: relative;
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.dashboardContainer {
+  position: relative;
+}
+
+.dashboardContent {
+  position: relative;
+  left: var(--layout-leftSpace);
+  width: calc(100% - var(--layout-leftSpace));
+  transition:
+    left 0.2s ease,
+    width 0.2s ease;
+  padding: 30px;
+}
+
+.dashboardContainerExpand {
+  left: var(--layout-expand-leftSpace);
+  width: calc(100% - var(--layout-expand-leftSpace));
+}
+
+.dashboardMainContent {
+  min-height: 100vh;
+  padding: 90px 0 0;
+}
+
+@media (max-width: 1023.98px) {
+  .dashboardContent {
+    left: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .dashboardMainContent {
+    padding: 20px 0 0;
+  }
+}

@@ -1,0 +1,17 @@
+.datatableFlex {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.datatableFlex > * {
+  min-width: 0;
+  width: 100%;
+}
+
+@media (max-width: 1279.98px) {
+  .datatableFlex {
+    grid-template-columns: 1fr;
+  }
+}

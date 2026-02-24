@@ -1,0 +1,8 @@
+.footerMain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 0 40px;
+}

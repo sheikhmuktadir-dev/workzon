@@ -1,0 +1,102 @@
+.dashboardMain {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.cardGrid {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.topBox {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  grid-column: span 6;
+}
+
+.bottomLarge {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  grid-column: span 6;
+}
+
+.bottomSmall {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  grid-column: span 3;
+}
+
+.topBox > *,
+.bottomLarge > *,
+.bottomSmall > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 575.98px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+  .topBox,
+  .bottomLarge,
+  .bottomSmall {
+    grid-column: span 12;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1023.98px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .topBox,
+  .bottomLarge {
+    grid-column: span 12;
+  }
+  .bottomSmall {
+    grid-column: span 6;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .cardGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .topBox {
+    grid-column: span 6;
+  }
+
+  .bottomLarge {
+    grid-column: span 12;
+  }
+
+  .bottomSmall {
+    grid-column: span 6;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+  .cardGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .topBox {
+    grid-column: span 6;
+  }
+
+  .bottomLarge {
+    grid-column: span 6;
+  }
+
+  .bottomSmall {
+    grid-column: span 3;
+  }
+}

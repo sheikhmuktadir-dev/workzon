@@ -1,0 +1,29 @@
+.toastContainer {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999999999;
+}
+
+.toastBox {
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  line-height: 1;
+  border-radius: 10px;
+  box-shadow: var(--nav-shadow);
+  padding: 0 20px;
+  color: var(--light-color);
+}
+
+.toastError {
+  background: #f53939;
+}
+
+.toastSuccesss {
+  background: var(--highlight-bg);
+}

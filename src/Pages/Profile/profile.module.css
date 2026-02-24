@@ -1,0 +1,87 @@
+.profileBoxWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.profileBox {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: var(--secondary-bg);
+  box-shadow: var(--card-shadow);
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.profileImage {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  justify-self: center;
+  object-fit: cover;
+  flex: none;
+}
+
+.profileTop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileTopName {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profileBottom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profilePart {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary-bg);
+  padding: 15px;
+  border-bottom: 1px solid var(--primary-border);
+}
+
+.profilePart:last-child {
+  border-bottom: none;
+}
+
+.profileMute {
+  color: var(--secondary-color);
+}
+
+.profileEdit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--highlight-bg);
+  color: var(--light-color);
+  font-size: 14px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  line-height: 1;
+  border-radius: 100px;
+}

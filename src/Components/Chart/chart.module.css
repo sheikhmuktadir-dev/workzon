@@ -1,0 +1,47 @@
+.chartCard {
+  background: var(--secondary-bg);
+  padding: 20px 5px 15px;
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chartHeader {
+  padding: 10px 20px 0;
+}
+
+.chartLabel {
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.chartLabel2 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.chartValue {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.chartStat {
+  color: #05cd99;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chartStat2 {
+  color: #f53939;
+  font-size: 14px;
+  font-weight: 500;
+}
