@@ -2,14 +2,13 @@ import { Link, useLocation, matchPath } from "react-router-dom";
 import Style from "./navbar.module.css";
 import { LuSearch } from "react-icons/lu";
 import { IoIosMoon } from "react-icons/io";
-import { TbLayoutSidebarLeftCollapse } from "react-icons/tb";
 import { useContext, useEffect, useRef } from "react";
 import { ThemeContext } from "../../Context/ThemeContext/ThemeContext";
 import { IoSunnyOutline } from "react-icons/io5";
 import { MenuContext } from "../../Context/MenuContext/MenuContext";
 import useToggle from "../../CustomHooks/useToggle";
 import { sidebarLinks } from "../../Data/Sidebar";
-import { TbLayoutSidebarRightCollapse } from "react-icons/tb";
+import { PiListBold } from "react-icons/pi";
 import useLogout from "../../CustomHooks/useLogout";
 import Person from "/images/person.webp";
 import Wave from "/images/waving-hand.png";
@@ -84,11 +83,7 @@ export default function Navbar() {
         </div>
 
         <button className={Style.navBtn} onClick={() => barCollapseHandler()}>
-          {barCollapse ? (
-            <TbLayoutSidebarRightCollapse />
-          ) : (
-            <TbLayoutSidebarLeftCollapse />
-          )}
+          <PiListBold />
         </button>
 
         <button className={Style.navBtn} onClick={() => themeHandler()}>
