@@ -93,7 +93,7 @@
   width: 100% !important; /* Force the table to be full width */
   margin: 0 auto;
   border-collapse: separate !important;
-  border-spacing: 0 20px !important;
+  border-spacing: 0 5px !important;
   border: none !important;
   table-layout: auto !important;
   background: transparent !important;

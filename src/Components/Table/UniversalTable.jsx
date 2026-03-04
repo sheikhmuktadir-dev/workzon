@@ -25,7 +25,7 @@ export default function UniversalTable({ data, columns, title }) {
             ],
             paging: true,
             info: false,
-            pageLength: 3,
+            pageLength: 5,
             drawCallback: function () {
               this.api().table().header().style.borderBottom = "none";
             },
