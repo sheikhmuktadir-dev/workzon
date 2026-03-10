@@ -8,7 +8,6 @@
   width: calc(100% - var(--navbar-leftspace) - 20px);
   padding: 0 10px;
   height: var(--navbar-height);
-  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: space-between;
