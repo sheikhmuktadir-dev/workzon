@@ -28,11 +28,11 @@ export default function Sidebar() {
       <div className={Style.sidebarLogoArea}>
         <Link to="/" className={Style.sidebarLogo}>
           <div className={Style.logoShort}>
-            W<span>F</span>
+            W<span>z</span>
           </div>
 
           <div className={Style.logoFull}>
-            Workzon<span>Free</span>
+            Work<span>zone</span>
           </div>
         </Link>
       </div>
